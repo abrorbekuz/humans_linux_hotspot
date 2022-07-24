@@ -1,4 +1,4 @@
-akalar buni ishlatish uchun shu dasturni
+ishlatish uchun shu dasturni
 papkasida terminal oching
 
 "
