@@ -4,6 +4,6 @@ from os import system
 choice = input('Akasi bugun humansdamizmi ? [y/n] ')
 
 if choice.lower() == "y":
-    system("./h_activate.sh")
-else: system("./h_deactivate.sh")
+    system("sudo sysctl -w net.ipv4.ip_default_ttl=65")
+else: system("sudo sysctl -w net.ipv4.ip_default_ttl=64")
 
